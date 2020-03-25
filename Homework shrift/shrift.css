@@ -1,0 +1,45 @@
+p:first-child {
+    font-family: "Times New Roman", serif;
+}
+h1+p:first-letter {
+    float: left;
+    font-size: 50px;
+    font-family: "Times New Roman", serif;
+    color: black;
+}
+p {
+    font-family: sans-serif;
+    color: gray;
+    line-height: 1;
+}
+b {
+    font-size: 3rem;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+}
+div {
+    border: 1px solid #ff4812 ;
+    width: 150px;
+    height: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff4812;
+    text-align: center;
+    padding-top: 8px;
+}
+.my-star {
+    color: blueviolet;
+    font-size: 36px ;
+    display: block;
+}
+.my-star-solid {
+    color: #f00000;
+    text-shadow: 8px -2px 2px rgba(68,68,68,1);
+    font-size: 40px;
+    text-decoration: line-through;
+
+}
+
+
+

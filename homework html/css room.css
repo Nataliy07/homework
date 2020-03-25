@@ -1,0 +1,22 @@
+h2 {
+    color: indigo;
+    letter-spacing: 2px;
+}
+table {
+    border-color: navy;
+    empty-cells: show;
+    background-color: aquamarine;
+}
+
+h3 {
+    color: darkgreen;
+}
+h1 {
+    color: navy;
+    letter-spacing: 2px;
+}
+a:link { color: navy }
+a:visited { color: indigo }
+a:hover {
+    border-bottom: 1px solid red;
+}

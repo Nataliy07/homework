@@ -1,0 +1,96 @@
+ul {
+    font-size: 0;
+    width: 600px;
+    display: inline-block;
+    border: 2px;
+}
+li {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: 16px;
+    height: 60px;
+    vertical-align: middle;
+    color: white;
+    -moz-box-align: center;
+    box-sizing: border-box;
+}
+ul:hover li {
+    opacity: 60%;
+}
+ul li:hover {
+    opacity: 100%;
+}
+p {
+    text-align: center;
+    line-height: 1px;
+}
+.blok-1 li:first-child {
+    width: 50%;
+    /*height: 36px;*/
+    background: blue;
+}
+.blok-1 li:nth-child(2) {
+    width: 25%;
+    /*height: 36px;*/
+    background: deepskyblue;
+}
+.blok-1 li:last-child {
+    width: 25%;
+    /*height: 36px;*/
+    background: blueviolet;
+}
+.blok-2 li {
+    width: 25%;
+    /*height: 36px;*/
+}
+.blok-2 li:first-child {
+    background: red;
+}
+.blok-2 li:nth-child(2) {
+    /*width: 150px;*/
+    /*height: 36px;*/
+    background: orangered;
+}
+.blok-2 li:nth-child(3) {
+    /*width: 150px;*/
+    /*height: 36px;*/
+    background: darkorange;
+}
+.blok-2 li:last-child {
+    /*width: 150px;*/
+    /*height: 36px;*/
+    background: darkgoldenrod;
+}
+.blok-3 li:first-child {
+    width: 25%;
+    background: cadetblue;
+}
+.blok-3 li:nth-child(2) {
+    width: 50%;
+    background: palevioletred;
+}
+.blok-3 li:last-child {
+    width: 25%;
+    background: darkgreen;
+}
+.blok-4 li {
+    width: 100%;
+    background: darkslateblue;
+}
+main>p {
+    text-align: left;
+}
+main {
+    width: 150px;
+    height: 100%;
+    border: 5px solid blue;
+    background: cadetblue;
+}
+main:hover {
+    background: #cccccc;
+    color: blue;
+}
+body {
+    background: darksalmon;
+}

@@ -1,0 +1,44 @@
+label {
+    display: block;
+}
+input::-webkit-input-placeholder {
+    color: white;
+    letter-spacing: 1px;
+    width: 300px;
+}
+textarea::-webkit-input-placeholder {
+    color: white;
+    letter-spacing: 1px;
+}
+input {
+    width: 227px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color: #1364ff;
+}
+textarea {
+    margin-left: 50px;
+    background-color: #1364ff;
+}
+div {
+    top: 30%;
+    margin-left: 600px;
+    position: absolute;
+}
+p {
+    line-height: 2px;
+}
+body {
+    background: plum;
+}
+h1, h2 {
+    text-align: center;
+}
+.error {
+    display: none;
+}
+:invalid+.error {
+    display: block;
+    color: red;
+}
